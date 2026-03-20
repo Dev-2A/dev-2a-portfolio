@@ -1,0 +1,102 @@
+{
+  "ko": [
+    {
+      "category": "언어",
+      "items": [
+        { "name": "Python", "level": 3 },
+        { "name": "JavaScript", "level": 2 },
+        { "name": "TypeScript", "level": 2 },
+        { "name": "Java", "level": 1 },
+        { "name": "HTML/CSS", "level": 2 }
+      ]
+    },
+    {
+      "category": "프론트엔드",
+      "items": [
+        { "name": "React", "level": 3 },
+        { "name": "Next.js", "level": 2 },
+        { "name": "Vite", "level": 3 },
+        { "name": "Tailwind CSS", "level": 3 },
+        { "name": "Framer Motion", "level": 1 }
+      ]
+    },
+    {
+      "category": "백엔드",
+      "items": [
+        { "name": "FastAPI", "level": 3 },
+        { "name": "Node.js", "level": 2 },
+        { "name": "Supabase", "level": 2 }
+      ]
+    },
+    {
+      "category": "AI / ML",
+      "items": [
+        { "name": "BGE-M3", "level": 3 },
+        { "name": "FAISS", "level": 2 },
+        { "name": "ONNX", "level": 2 },
+        { "name": "sentence-transformers", "level": 2 },
+        { "name": "Anthropic API", "level": 2 }
+      ]
+    },
+    {
+      "category": "인프라 / 도구",
+      "items": [
+        { "name": "Git", "level": 3 },
+        { "name": "GitHub Actions", "level": 2 },
+        { "name": "Docker", "level": 2 },
+        { "name": "Elasticsearch", "level": 2 },
+        { "name": "Linux", "level": 2 }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "category": "Languages",
+      "items": [
+        { "name": "Python", "level": 3 },
+        { "name": "JavaScript", "level": 2 },
+        { "name": "TypeScript", "level": 2 },
+        { "name": "Java", "level": 1 },
+        { "name": "HTML/CSS", "level": 2 }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "React", "level": 3 },
+        { "name": "Next.js", "level": 2 },
+        { "name": "Vite", "level": 3 },
+        { "name": "Tailwind CSS", "level": 3 },
+        { "name": "Framer Motion", "level": 1 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "FastAPI", "level": 3 },
+        { "name": "Node.js", "level": 2 },
+        { "name": "Supabase", "level": 2 }
+      ]
+    },
+    {
+      "category": "AI / ML",
+      "items": [
+        { "name": "BGE-M3", "level": 3 },
+        { "name": "FAISS", "level": 2 },
+        { "name": "ONNX", "level": 2 },
+        { "name": "sentence-transformers", "level": 2 },
+        { "name": "Anthropic API", "level": 2 }
+      ]
+    },
+    {
+      "category": "Infra / Tools",
+      "items": [
+        { "name": "Git", "level": 3 },
+        { "name": "GitHub Actions", "level": 2 },
+        { "name": "Docker", "level": 2 },
+        { "name": "Elasticsearch", "level": 2 },
+        { "name": "Linux", "level": 2 }
+      ]
+    }
+  ]
+}
