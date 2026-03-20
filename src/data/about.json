@@ -1,0 +1,54 @@
+{
+  "ko": [
+    {
+      "year": "시작",
+      "title": "사서로서의 첫걸음",
+      "description": "정보를 분류하고, 사람과 지식을 연결하는 일을 사랑했다",
+      "icon": "book"
+    },
+    {
+      "year": "전환",
+      "title": "코딩과의 만남",
+      "description": "데이터를 다루는 새로운 방법을 발견하다",
+      "icon": "code"
+    },
+    {
+      "year": "성장",
+      "title": "ONTHEIT R&D 입사",
+      "description": "AI/ML 엔지니어링, 문서 지능 시스템 개발에 뛰어들다",
+      "icon": "rocket"
+    },
+    {
+      "year": "현재",
+      "title": "바이브 코더로 진화",
+      "description": "Claude와 함께 매주 새로운 토이 프로젝트를 만들어가는 중",
+      "icon": "sparkles"
+    }
+  ],
+  "en": [
+    {
+      "year": "Origin",
+      "title": "Starting as a librarian",
+      "description": "Loved organizing information and connecting people with knowledge",
+      "icon": "book"
+    },
+    {
+      "year": "Shift",
+      "title": "Discovering code",
+      "description": "Found a new way to work with data",
+      "icon": "code"
+    },
+    {
+      "year": "Growth",
+      "title": "Joining ONTHEIT R&D",
+      "description": "Dove into AI/ML engineering and document intelligence systems",
+      "icon": "rocket"
+    },
+    {
+      "year": "Now",
+      "title": "Evolving as a vibe coder",
+      "description": "Building new toy projects every week with Claude",
+      "icon": "sparkles"
+    }
+  ]
+}
