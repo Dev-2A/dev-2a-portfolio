@@ -92,3 +92,43 @@
 body.dark ::-webkit-scrollbar-thumb {
   background: #334155;
 }
+
+/* ========================================
+   Responsive Utilities
+   ======================================== */
+@layer utilities {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+/* ========================================
+   Dark Mode Transitions
+   ======================================== */
+.dark {
+  color-scheme: dark;
+}
+
+/* Smooth section transitions */
+section {
+  position: relative;
+}
+
+/* Mobile menu body scroll lock */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* ========================================
+   Print Styles
+   ======================================== */
+@media print {
+  nav,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+}

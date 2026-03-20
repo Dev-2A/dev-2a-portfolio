@@ -95,7 +95,7 @@ export default function About() {
 
         {/* Mobile: vertical timeline */}
         <div className="md:hidden">
-          <div className="relative pl-8">
+          <div className="relative pl-10">
             {/* Vertical line */}
             <div
               className={`absolute left-3 top-0 bottom-0 w-0.5 ${
@@ -108,7 +108,7 @@ export default function About() {
                 <div className="relative mb-10 last:mb-0">
                   {/* Dot */}
                   <div
-                    className="absolute -left-5 w-10 h-10 rounded-full flex items-center justify-center z-10"
+                    className="absolute -left-6 w-10 h-10 rounded-full flex items-center justify-center z-10"
                     style={{
                       backgroundColor: isDark ? "#1E293B" : "#FFFFFF",
                       borderWidth: 2,

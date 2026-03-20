@@ -34,6 +34,15 @@ export default function Navbar() {
     setMobileOpen(false);
   }, [location]);
 
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.classList.add('menu-open');
+    } else {
+      document.body.classList.remove('menu-open');
+    }
+    return () => document.body.classList.remove('menu-open');
+  }, [mobileOpen]);
+
   const navItems = [
     { id: "about", label: t("nav.about") },
     { id: "vibe-coding", label: t("nav.vibeCoding") },

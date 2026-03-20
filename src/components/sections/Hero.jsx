@@ -36,7 +36,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Floating emojis */}
-      {floatingIcons.map((icon, i) => (
+      {floatingIcons.slice(0, typeof window !== 'undefined' && window.innerWidth < 768 ? 4 : 8).map((icon, i) => (
         <motion.span
           key={i}
           className="absolute select-none pointer-events-none opacity-15"

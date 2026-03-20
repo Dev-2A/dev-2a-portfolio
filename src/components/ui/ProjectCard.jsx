@@ -23,8 +23,9 @@ export default function ProjectCard({ project }) {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0.3 }}
-      whileHover={{ y: -6, transition: { duration: 0.2 } }}
+      whileHover={{ y: -6 }}
+      whileTap={{ scale: 0.98 }}
+      transition={{ duration: 0.2 }}
       onClick={() => navigate(`/projects/${project.slug}`)}
       className={`group cursor-pointer rounded-2xl overflow-hidden border transition-shadow ${
         isDark
