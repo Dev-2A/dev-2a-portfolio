@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "../../contexts/ThemeContext";
 import { useI18n } from "../../contexts/I18nContext";
-import { useScrolSpy } from "../../hooks/useScrollSpy";
+import { useScrollSpy } from "../../hooks/useScrollSpy";
 
 const NAV_SECTIONS = [
   "about",
@@ -18,7 +18,7 @@ export default function Navbar() {
   const { locale, toggleLocale, t } = useI18n();
   const location = useLocation();
   const navigate = useNavigate();
-  const activeSection = useScrolSpy(NAV_SECTIONS);
+  const activeSection = useScrollSpy(NAV_SECTIONS);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
