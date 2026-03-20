@@ -620,7 +620,7 @@
     "thumbnailColor": "#2DD4BF",
     "githubUrl": "https://github.com/Dev-2A/format-converter",
     "liveUrl": "https://Dev-2A.github.io/format-converter/",
-    "featured": false,
+    "featured": true,
     "createdAt": "2026-03",
     "highlights": {
       "ko": ["3방향 실시간 변환", "Monaco Editor 통합", "Diff 뷰 지원"],
@@ -657,7 +657,7 @@
     "thumbnailColor": "#EC4899",
     "githubUrl": "https://github.com/Dev-2A/font-showroom",
     "liveUrl": "https://Dev-2A.github.io/font-showroom/",
-    "featured": false,
+    "featured": true,
     "createdAt": "2026-03",
     "highlights": {
       "ko": [
