@@ -1,0 +1,703 @@
+[
+  {
+    "slug": "solvedac-dashboard",
+    "title": { "ko": "Solved.ac 대시보드", "en": "Solved.ac Dashboard" },
+    "subtitle": {
+      "ko": "알고리즘 풀이 현황 대시보드",
+      "en": "Algorithm solving status dashboard"
+    },
+    "description": {
+      "ko": "Solved.ac API를 활용해 알고리즘 풀이 현황을 차트로 시각화하는 개인 대시보드.",
+      "en": "A personal dashboard that visualizes algorithm solving progress using the Solved.ac API with charts."
+    },
+    "category": "web",
+    "techStack": ["FastAPI", "Vanilla JS", "Chart.js"],
+    "thumbnailColor": "#2DD4BF",
+    "githubUrl": "https://github.com/Dev-2A/solvedac-dashboard",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2025-11",
+    "highlights": {
+      "ko": ["Solved.ac API 연동", "Chart.js 시각화", "티어별 문제 분석"],
+      "en": [
+        "Solved.ac API integration",
+        "Chart.js visualization",
+        "Tier-based problem analysis"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "첫 FastAPI + Vanilla JS 조합 프로젝트. 외부 API 연동과 데이터 시각화 기초를 배움",
+      "en": "First FastAPI + Vanilla JS project. Learned external API integration and data visualization basics"
+    }
+  },
+  {
+    "slug": "solvedac-rival-tracker",
+    "title": {
+      "ko": "Solved.ac 라이벌 트래커",
+      "en": "Solved.ac Rival Tracker"
+    },
+    "subtitle": {
+      "ko": "라이벌과의 알고리즘 풀이 비교 추적기",
+      "en": "Track and compare algorithm progress with rivals"
+    },
+    "description": {
+      "ko": "Solved.ac 대시보드의 확장판. 라이벌(친구)과 나의 문제 풀이 현황을 비교하고 추적할 수 있는 웹 앱.",
+      "en": "An extension of the Solved.ac Dashboard. A web app to compare and track algorithm solving progress between rivals."
+    },
+    "category": "web",
+    "techStack": ["Next.js", "TypeScript", "Recharts"],
+    "thumbnailColor": "#EC4899",
+    "githubUrl": "https://github.com/Dev-2A/solvedac-dashboard",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2025-12",
+    "highlights": {
+      "ko": ["라이벌 비교 차트", "Next.js SSR 활용", "TypeScript 도입"],
+      "en": ["Rival comparison charts", "Next.js SSR", "TypeScript adoption"]
+    },
+    "lessonsLearned": {
+      "ko": "기존 대시보드에 소셜 요소를 추가해서 동기부여 효과를 높임. Next.js와 TypeScript를 처음 사용해봄",
+      "en": "Added social elements to boost motivation. First experience with Next.js and TypeScript"
+    }
+  },
+  {
+    "slug": "git-commit-gen",
+    "title": {
+      "ko": "깃 커밋 메시지 생성기",
+      "en": "Git Commit Message Generator"
+    },
+    "subtitle": {
+      "ko": "CLI 기반 커밋 메시지 자동 생성 도구",
+      "en": "CLI-based commit message auto-generator"
+    },
+    "description": {
+      "ko": "staged 변경사항을 분석해 gitmoji + 한국어 커밋 메시지를 자동 생성하는 Python CLI 도구. pipx로 글로벌 설치 가능.",
+      "en": "A Python CLI tool that analyzes staged changes to auto-generate gitmoji + Korean commit messages. Globally installable via pipx."
+    },
+    "category": "cli",
+    "techStack": ["Python", "Click"],
+    "thumbnailColor": "#FACC15",
+    "githubUrl": "https://github.com/Dev-2A/git-commit-gen",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2025-12",
+    "highlights": {
+      "ko": ["Git diff 분석", "gitmoji 자동 선택", "pipx 글로벌 설치"],
+      "en": [
+        "Git diff analysis",
+        "Auto gitmoji selection",
+        "pipx global install"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "매일 쓰는 도구가 됨. Click의 간결함에 감동받은 프로젝트. pipx 전역 설치 경험",
+      "en": "Became a daily-use tool. Impressed by Click's simplicity. Learned pipx global install"
+    }
+  },
+  {
+    "slug": "steam-library-analyzer",
+    "title": { "ko": "스팀 라이브러리 분석기", "en": "Steam Library Analyzer" },
+    "subtitle": {
+      "ko": "Steam 게임 라이브러리 통계 분석 CLI",
+      "en": "Steam game library statistics CLI"
+    },
+    "description": {
+      "ko": "Steam Web API를 활용해 보유 게임, 플레이 시간, 장르 분포 등을 분석하는 Python CLI 도구.",
+      "en": "A Python CLI tool that analyzes owned games, playtime, and genre distribution using the Steam Web API."
+    },
+    "category": "cli",
+    "techStack": ["Python", "Rich"],
+    "thumbnailColor": "#38BDF8",
+    "githubUrl": "https://github.com/Dev-2A/steam-library-analyzer",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-01",
+    "highlights": {
+      "ko": ["Steam Web API 연동", "플레이 시간 분석", "Rich 터미널 UI"],
+      "en": [
+        "Steam Web API integration",
+        "Playtime analysis",
+        "Rich terminal UI"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "API 인증 흐름과 데이터 정제를 배움",
+      "en": "Learned API auth flows and data cleaning"
+    }
+  },
+  {
+    "slug": "ai-librarian",
+    "title": { "ko": "AI 사서", "en": "AI Librarian" },
+    "subtitle": {
+      "ko": "임베딩 기반 한국어 도서 의미 검색 시스템",
+      "en": "Embedding-based Korean book semantic search system"
+    },
+    "description": {
+      "ko": "BGE-M3 임베딩과 Elasticsearch를 활용한 한국어 도서 의미 검색 시스템. 전직 사서의 도메인 지식이 녹아든 프로젝트.",
+      "en": "A Korean book semantic search system using BGE-M3 embeddings and Elasticsearch. Infused with domain knowledge from a former librarian."
+    },
+    "category": "ai-ml",
+    "techStack": ["FastAPI", "React", "Elasticsearch"],
+    "thumbnailColor": "#7C3AED",
+    "githubUrl": "https://github.com/Dev-2A/ai-librarian",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-01",
+    "highlights": {
+      "ko": [
+        "BGE-M3 임베딩 검색",
+        "Elasticsearch 연동",
+        "사서 도메인 지식 활용"
+      ],
+      "en": [
+        "BGE-M3 embedding search",
+        "Elasticsearch integration",
+        "Librarian domain expertise"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "사서 경력과 임베딩 모델 경험을 결합한 프로젝트. 임베딩 모델과 벡터 검색의 실제 적용법을 배움",
+      "en": "Combined librarian career with embedding model experience. Learned practical vector search application"
+    }
+  },
+  {
+    "slug": "gravity-raid-hub",
+    "title": { "ko": "과중력 공대 허브", "en": "Gravity Raid Hub" },
+    "subtitle": {
+      "ko": "FF14 레이드 공대 관리 웹앱",
+      "en": "FFXIV raid group management web app"
+    },
+    "description": {
+      "ko": "파이널 판타지 14 레이드 공대 '과중력'을 위한 일정 관리, 멤버 현황 공유 웹 앱. Supabase 실시간 DB 활용.",
+      "en": "A schedule and member management web app for FFXIV raid group 'Gravity'. Built with Supabase real-time DB."
+    },
+    "category": "web",
+    "techStack": ["React", "Vite", "Tailwind CSS", "Supabase"],
+    "thumbnailColor": "#2DD4BF",
+    "githubUrl": "https://github.com/Dev-2A/gravity-raid-hub",
+    "liveUrl": "https://gravity-raid-hub.vercel.app/",
+    "featured": true,
+    "createdAt": "2026-01",
+    "highlights": {
+      "ko": ["Supabase 실시간 DB", "Vercel 배포", "공대 일정 관리"],
+      "en": [
+        "Supabase real-time DB",
+        "Vercel deployment",
+        "Raid schedule management"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "Supabase Realtime 덕분에 실시간 투표/베팅 구현이 생각보다 쉬웠음",
+      "en": "Supabase Realtime made real-time voting/betting easier than expected"
+    }
+  },
+  {
+    "slug": "vibe-coding-radio",
+    "title": { "ko": "Vibe Coding Radio", "en": "Vibe Coding Radio" },
+    "subtitle": {
+      "ko": "코딩할 때 듣는 Lo-Fi 라디오 + 포모도로 타이머",
+      "en": "Lo-Fi radio + Pomodoro timer for coding sessions"
+    },
+    "description": {
+      "ko": "YouTube Lo-Fi 스트림과 포모도로 타이머를 결합한 코딩 집중 도구. 세션 히트맵으로 집중 패턴을 시각화.",
+      "en": "A coding focus tool combining YouTube Lo-Fi streams with a Pomodoro timer. Session heatmap visualizes focus patterns."
+    },
+    "category": "web",
+    "techStack": ["Next.js", "Zustand"],
+    "thumbnailColor": "#EC4899",
+    "githubUrl": "https://github.com/Dev-2A/vibe-coding-radio",
+    "liveUrl": "https://vibe-coding-radio.vercel.app/",
+    "featured": true,
+    "createdAt": "2026-01",
+    "highlights": {
+      "ko": ["YouTube API 연동", "포모도로 타이머", "세션 히트맵 분석"],
+      "en": [
+        "YouTube API integration",
+        "Pomodoro timer",
+        "Session heatmap analytics"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "바이브 코딩 컨셉을 앱으로 구현. Zustand 상태 관리와 Next.js 15를 실전 적용함",
+      "en": "Turned the vibe coding concept into an app. Applied Zustand and Next.js 15 in practice"
+    }
+  },
+  {
+    "slug": "commitpet-generator",
+    "title": { "ko": "커밋펫 생성기", "en": "CommitPet Generator" },
+    "subtitle": {
+      "ko": "GitHub 커밋으로 키우는 픽셀 아트 펫",
+      "en": "Pixel art pet that grows with GitHub commits"
+    },
+    "description": {
+      "ko": "GitHub 커밋 활동에 따라 성장하는 픽셀 아트 펫을 SVG로 생성해 README에 표시하는 도구.",
+      "en": "A tool that generates an SVG pixel art pet that grows based on GitHub commit activity, displayed in your README."
+    },
+    "category": "game",
+    "techStack": ["Node.js"],
+    "thumbnailColor": "#84CC16",
+    "githubUrl": "https://github.com/Dev-2A/commitpet-generator",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-01",
+    "highlights": {
+      "ko": [
+        "GitHub API 활동 분석",
+        "SVG 픽셀 아트 생성",
+        "README 자동 업데이트"
+      ],
+      "en": [
+        "GitHub API activity analysis",
+        "SVG pixel art generation",
+        "Auto README update"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "SVG를 코드로 직접 그리는 경험이 흥미로웠음",
+      "en": "Drawing SVG programmatically was an interesting experience"
+    }
+  },
+  {
+    "slug": "tech-digest-kr",
+    "title": { "ko": "Tech Digest KR", "en": "Tech Digest KR" },
+    "subtitle": {
+      "ko": "한국어 기술 뉴스 RSS 요약 서비스",
+      "en": "Korean tech news RSS summarization service"
+    },
+    "description": {
+      "ko": "기술 블로그 RSS 피드를 수집하고, LLM으로 한국어 요약을 생성하며, 의미 검색이 가능한 뉴스 애그리게이터.",
+      "en": "A news aggregator that collects tech blog RSS feeds, generates Korean summaries via LLM, and supports semantic search."
+    },
+    "category": "ai-ml",
+    "techStack": ["FastAPI", "SQLite"],
+    "thumbnailColor": "#FB923C",
+    "githubUrl": "https://github.com/Dev-2A/tech-digest-kr",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-02",
+    "highlights": {
+      "ko": ["RSS 피드 자동 수집", "LLM 기반 한국어 요약", "의미 검색 지원"],
+      "en": [
+        "Auto RSS feed collection",
+        "LLM-based Korean summary",
+        "Semantic search support"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "실무의 임베딩 경험을 토이 프로젝트로 잘 풀어낸 케이스. RSS 파싱 예외 처리가 중요했음",
+      "en": "Applied real-world embedding experience to a toy project. RSS parsing error handling was critical"
+    }
+  },
+  {
+    "slug": "md-notion-bridge",
+    "title": { "ko": "마크다운-Notion 변환기", "en": "Markdown-Notion Bridge" },
+    "subtitle": {
+      "ko": "마크다운 ↔ Notion 양방향 변환 CLI",
+      "en": "Bidirectional Markdown ↔ Notion converter CLI"
+    },
+    "description": {
+      "ko": "마크다운 파일과 Notion 페이지를 양방향으로 변환하는 Python CLI 도구. 표, 코드블록, 이미지 등 복잡한 블록 지원.",
+      "en": "A Python CLI tool for bidirectional conversion between Markdown files and Notion pages. Supports complex blocks."
+    },
+    "category": "cli",
+    "techStack": ["Python", "pytest", "GitHub Actions"],
+    "thumbnailColor": "#2DD4BF",
+    "githubUrl": "https://github.com/Dev-2A/md-notion-bridge",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-02",
+    "highlights": {
+      "ko": ["양방향 변환", "복잡한 블록 지원", "GitHub Actions CI"],
+      "en": [
+        "Bidirectional conversion",
+        "Complex block support",
+        "GitHub Actions CI"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "Notion API의 블록 구조가 생각보다 복잡했음. pytest와 GitHub Actions CI 구축 경험",
+      "en": "Notion API block structure was more complex than expected. Built pytest and GitHub Actions CI"
+    }
+  },
+  {
+    "slug": "airgap-kor-search",
+    "title": { "ko": "에어갭 한국어 검색", "en": "Airgap Korean Search" },
+    "subtitle": {
+      "ko": "인터넷 없이 작동하는 한국어 의미 검색 엔진",
+      "en": "Korean semantic search engine that works offline"
+    },
+    "description": {
+      "ko": "BGE-M3 ONNX 모델과 FAISS를 활용해 완전 오프라인 환경에서 동작하는 한국어 의미 검색 시스템.",
+      "en": "A Korean semantic search system that operates in fully offline environments using BGE-M3 ONNX model and FAISS."
+    },
+    "category": "ai-ml",
+    "techStack": ["FastAPI", "FAISS"],
+    "thumbnailColor": "#7C3AED",
+    "githubUrl": "https://github.com/Dev-2A/airgap-kor-search",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-02",
+    "highlights": {
+      "ko": ["완전 오프라인 동작", "BGE-M3 ONNX 변환", "FAISS 벡터 검색"],
+      "en": [
+        "Fully offline operation",
+        "BGE-M3 ONNX conversion",
+        "FAISS vector search"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "업무에서 실제로 필요했던 오프라인 배포 경험을 토이 프로젝트로 정리한 케이스",
+      "en": "Organized real-world offline deployment experience into a toy project"
+    }
+  },
+  {
+    "slug": "game-ost-playlist",
+    "title": {
+      "ko": "게임 OST 무드 플레이리스트",
+      "en": "Game OST Mood Playlist"
+    },
+    "subtitle": {
+      "ko": "게임 OST를 분석해 기분별 맞춤 플레이리스트 생성",
+      "en": "Analyze game OSTs and generate mood-based playlists"
+    },
+    "description": {
+      "ko": "FFXIV, 스타듀밸리 등 게임 OST를 librosa로 오디오 특징(BPM, 에너지, 무드)을 분석하고, 기분/상황별 맞춤 플레이리스트를 생성하는 서비스.",
+      "en": "Analyzes game OSTs from FFXIV, Stardew Valley, etc. using librosa for audio features (BPM, energy, mood) and generates mood-based playlists."
+    },
+    "category": "ai-ml",
+    "techStack": ["Python", "FastAPI", "React", "librosa"],
+    "thumbnailColor": "#EC4899",
+    "githubUrl": "https://github.com/Dev-2A/game-ost-playlist",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-02",
+    "highlights": {
+      "ko": [
+        "librosa 기반 오디오 분석",
+        "기분별 플레이리스트 생성",
+        "유사 곡 추천"
+      ],
+      "en": [
+        "librosa-based audio analysis",
+        "Mood-based playlist generation",
+        "Similar track recommendations"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "librosa로 오디오를 분석하는 게 처음이라 학습 곡선이 있었음. 직접 즐기는 게임의 OST로 테스트하니까 더 재밌었음",
+      "en": "First time analyzing audio with librosa — had a learning curve. Testing with OSTs from games I actually play made it more fun"
+    }
+  },
+  {
+    "slug": "discord-algo-bot",
+    "title": {
+      "ko": "Discord 알고리즘 스터디 봇",
+      "en": "Discord Algorithm Study Bot"
+    },
+    "subtitle": {
+      "ko": "약점 태그 기반 문제 추천 디스코드 봇",
+      "en": "Discord bot with weakness-based problem recommendations"
+    },
+    "description": {
+      "ko": "Solved.ac API로 팀원들의 알고리즘 풀이 현황을 자동 트래킹하고, 약점 태그 기반 문제 추천 및 주간 랭킹을 자동 공지하는 디스코드 봇.",
+      "en": "A Discord bot that auto-tracks team members' solving via Solved.ac API, recommends problems based on weakness tags, and posts weekly rankings."
+    },
+    "category": "bot",
+    "techStack": ["Python", "SQLite"],
+    "thumbnailColor": "#FB923C",
+    "githubUrl": "https://github.com/Dev-2A/discord-algo-bot",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["약점 태그 분석", "주간 랭킹 자동 공지", "Solved.ac API 연동"],
+      "en": [
+        "Weakness tag analysis",
+        "Auto weekly ranking posts",
+        "Solved.ac API integration"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "비동기 처리와 API rate limiting에 대해 배움",
+      "en": "Learned async processing and API rate limiting"
+    }
+  },
+  {
+    "slug": "seat-puzzle",
+    "title": { "ko": "이 자리 비었나요?", "en": "Is This Seat Taken?" },
+    "subtitle": {
+      "ko": "드래그 앤 드롭 좌석 배치 퍼즐 게임",
+      "en": "Drag-and-drop seat arrangement puzzle game"
+    },
+    "description": {
+      "ko": "조건에 맞게 사람들을 좌석에 배치하는 퍼즐 게임. @dnd-kit 라이브러리를 활용한 직관적인 드래그 앤 드롭 인터페이스.",
+      "en": "A puzzle game where you arrange people in seats based on conditions. Intuitive drag-and-drop interface using @dnd-kit."
+    },
+    "category": "game",
+    "techStack": ["React", "Vite", "Tailwind CSS"],
+    "thumbnailColor": "#FACC15",
+    "githubUrl": "https://github.com/Dev-2A/seat-puzzle",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["@dnd-kit 드래그 앤 드롭", "조건 기반 퍼즐 로직", "반응형 UI"],
+      "en": [
+        "@dnd-kit drag and drop",
+        "Condition-based puzzle logic",
+        "Responsive UI"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "드래그 앤 드롭 라이브러리와 게임 로직 설계를 배움",
+      "en": "Learned drag-and-drop library and game logic design"
+    }
+  },
+  {
+    "slug": "github-profile-gen",
+    "title": {
+      "ko": "GitHub 프로필 README 자동 생성기",
+      "en": "GitHub Profile README Generator"
+    },
+    "subtitle": {
+      "ko": "GitHub 활동 기반 SVG README 자동 생성",
+      "en": "Auto-generate SVG README from GitHub activity"
+    },
+    "description": {
+      "ko": "GitHub 활동 데이터를 분석해 아름다운 SVG 프로필 카드를 자동 생성하고 README에 삽입하는 도구.",
+      "en": "A tool that analyzes GitHub activity data to auto-generate beautiful SVG profile cards for your README."
+    },
+    "category": "web",
+    "techStack": ["Python", "FastAPI", "React"],
+    "thumbnailColor": "#38BDF8",
+    "githubUrl": "https://github.com/Dev-2A/github-profile-gen",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["GitHub API 활동 분석", "동적 SVG 생성", "FastAPI + React 풀스택"],
+      "en": [
+        "GitHub API activity analysis",
+        "Dynamic SVG generation",
+        "FastAPI + React fullstack"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "SVG 프로그래밍과 풀스택 아키텍처를 배움",
+      "en": "Learned SVG programming and fullstack architecture"
+    }
+  },
+  {
+    "slug": "stardew-analyzer",
+    "title": { "ko": "Stardew Valley 분석기", "en": "Stardew Valley Analyzer" },
+    "subtitle": {
+      "ko": "스타듀밸리 세이브 파일 분석 & 시각화",
+      "en": "Stardew Valley save file analysis & visualization"
+    },
+    "description": {
+      "ko": "스타듀밸리 세이브 파일을 업로드하면 농장 현황, 수익, 동물 정보 등을 차트로 시각화하는 웹 앱.",
+      "en": "A web app that visualizes farm status, revenue, and animal info from uploaded Stardew Valley save files."
+    },
+    "category": "web",
+    "techStack": ["Python", "FastAPI", "React", "Recharts", "D3.js"],
+    "thumbnailColor": "#84CC16",
+    "githubUrl": "https://github.com/Dev-2A/stardew-analyzer",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": [
+        "XML 세이브 파일 파싱",
+        "Recharts + D3.js 시각화",
+        "브라우저 기반 분석"
+      ],
+      "en": [
+        "XML save file parsing",
+        "Recharts + D3.js visualization",
+        "Browser-based analysis"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "XML 파싱과 복합 차트 시각화를 배움",
+      "en": "Learned XML parsing and complex chart visualization"
+    }
+  },
+  {
+    "slug": "weekly-report-gen",
+    "title": {
+      "ko": "Notion 주간 리포트 생성기",
+      "en": "Notion Weekly Report Generator"
+    },
+    "subtitle": {
+      "ko": "Notion DB 기반 주간 회고 리포트 자동 생성",
+      "en": "Auto-generate weekly retrospective reports from Notion DB"
+    },
+    "description": {
+      "ko": "Notion DB에 쌓인 작업 기록을 읽어서 LLM 기반 주간 회고 리포트를 자동 생성하는 Python CLI 도구.",
+      "en": "A Python CLI tool that reads task records from Notion DB and auto-generates LLM-based weekly retrospective reports."
+    },
+    "category": "cli",
+    "techStack": ["Python", "Click"],
+    "thumbnailColor": "#7C3AED",
+    "githubUrl": "https://github.com/Dev-2A/weekly-report-gen",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["Notion API 데이터 수집", "LLM 기반 회고 생성", "CLI 자동화"],
+      "en": [
+        "Notion API data collection",
+        "LLM-based retrospective generation",
+        "CLI automation"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "Notion API와 LLM을 결합해 실무에서 쓸 수 있는 자동화 도구를 만듦",
+      "en": "Combined Notion API and LLM to create a practical automation tool"
+    }
+  },
+  {
+    "slug": "kr-code-reviewer",
+    "title": { "ko": "kr-code-reviewer", "en": "kr-code-reviewer" },
+    "subtitle": {
+      "ko": "PR diff 기반 한국어 코드 리뷰 자동 생성",
+      "en": "Auto-generate Korean code reviews from PR diffs"
+    },
+    "description": {
+      "ko": "PR diff를 읽고 Anthropic Claude API로 한국어 코드 리뷰 코멘트를 자동 생성하는 CLI + GitHub Action. 3가지 출력 형식, 62개 테스트 통과.",
+      "en": "A CLI + GitHub Action that reads PR diffs and auto-generates Korean code review comments via Anthropic Claude API. 3 output formats, 62 tests passing."
+    },
+    "category": "cli",
+    "techStack": [
+      "Python",
+      "Click",
+      "Anthropic API",
+      "PyGithub",
+      "GitHub Actions",
+      "pytest"
+    ],
+    "thumbnailColor": "#FB923C",
+    "githubUrl": "https://github.com/Dev-2A/kr-code-reviewer",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": [
+        "Anthropic Claude API 연동",
+        "GitHub Actions 자동 리뷰",
+        "62개 테스트 통과"
+      ],
+      "en": [
+        "Anthropic Claude API integration",
+        "GitHub Actions auto-review",
+        "62 tests passing"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "git-commit-gen 경험을 활용. 한국어 최적화 프롬프트 엔지니어링과 GitHub Actions 연동을 배움",
+      "en": "Leveraged git-commit-gen experience. Learned Korean-optimized prompt engineering and GitHub Actions integration"
+    }
+  },
+  {
+    "slug": "format-converter",
+    "title": { "ko": "Format Converter", "en": "Format Converter" },
+    "subtitle": {
+      "ko": "JSON ↔ YAML ↔ TOML 만능 변환기",
+      "en": "JSON ↔ YAML ↔ TOML universal converter"
+    },
+    "description": {
+      "ko": "JSON, YAML, TOML 사이의 양방향 실시간 변환 도구. Monaco Editor 기반으로 문법 검증, Diff 뷰, 포맷 자동 감지까지 지원. 100% 클라이언트 사이드.",
+      "en": "A real-time bidirectional converter between JSON, YAML, and TOML. Monaco Editor-based with syntax validation, diff view, and auto format detection. 100% client-side."
+    },
+    "category": "tool",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Monaco Editor",
+      "GitHub Actions"
+    ],
+    "thumbnailColor": "#2DD4BF",
+    "githubUrl": "https://github.com/Dev-2A/format-converter",
+    "liveUrl": "https://Dev-2A.github.io/format-converter/",
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["3방향 실시간 변환", "Monaco Editor 통합", "Diff 뷰 지원"],
+      "en": [
+        "3-way real-time conversion",
+        "Monaco Editor integration",
+        "Diff view support"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "Monaco Editor를 처음 써봤는데 VS Code와 동일한 편집 경험을 브라우저에서 제공할 수 있어서 만족",
+      "en": "First time using Monaco Editor — satisfied with VS Code-level editing experience in the browser"
+    }
+  },
+  {
+    "slug": "font-showroom",
+    "title": { "ko": "Font ShowRoom", "en": "Font ShowRoom" },
+    "subtitle": {
+      "ko": "Google Fonts 미리보기 쇼룸",
+      "en": "Google Fonts preview showroom"
+    },
+    "description": {
+      "ko": "Google Fonts를 탐색하고, 자간·행간·굵기·크기를 슬라이더로 실시간 조절하며 한글/영문/숫자 비교가 가능한 폰트 미리보기 쇼룸.",
+      "en": "A font preview showroom to explore Google Fonts with real-time slider controls for letter-spacing, line-height, weight, and size. Compare Korean/English/numbers."
+    },
+    "category": "tool",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Google Fonts API",
+      "GitHub Actions"
+    ],
+    "thumbnailColor": "#EC4899",
+    "githubUrl": "https://github.com/Dev-2A/font-showroom",
+    "liveUrl": "https://Dev-2A.github.io/font-showroom/",
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": [
+        "실시간 슬라이더 조절",
+        "한글/영문/숫자 비교",
+        "CSS 코드 원클릭 복사"
+      ],
+      "en": [
+        "Real-time slider controls",
+        "Korean/English/number comparison",
+        "One-click CSS code copy"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "백엔드 없이 브라우저만으로 동작하는 실용적인 폰트 렌더링 확인 도구를 완성",
+      "en": "Built a practical font rendering tool that runs entirely in the browser without a backend"
+    }
+  },
+  {
+    "slug": "docker-compose-visual-editor",
+    "title": { "ko": "Docker Compose Visual Editor", "en": "Docker Compose Visual Editor" },
+    "subtitle": { "ko": "Docker Compose 비주얼 노드 에디터", "en": "Docker Compose visual node editor" },
+    "description": {
+      "ko": "Docker Compose의 서비스, 네트워크, 볼륨을 노드 그래프로 시각화하고, 드래그앤드롭으로 편집하여 docker-compose.yml을 자동 생성하는 브라우저 기반 에디터.",
+      "en": "A browser-based editor that visualizes Docker Compose services, networks, and volumes as node graphs, with drag-and-drop editing to auto-generate docker-compose.yml."
+    },
+    "category": "tool",
+    "techStack": ["React", "Vite", "Tailwind CSS", "ReactFlow", "GitHub Actions"],
+    "thumbnailColor": "#38BDF8",
+    "githubUrl": "https://github.com/Dev-2A/docker-compose-visual-editor",
+    "liveUrl": "https://Dev-2A.github.io/docker-compose-visual-editor/",
+    "featured": true,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["YAML ↔ 노드 그래프 양방향 변환", "ReactFlow 커스텀 노드/엣지", "실시간 YAML 미리보기"],
+      "en": ["Bidirectional YAML ↔ node graph", "ReactFlow custom nodes/edges", "Real-time YAML preview"]
+    },
+    "lessonsLearned": {
+      "ko": "ReactFlow의 커스텀 노드/엣지 시스템이 강력했음. 실무 에어갭 환경에서 docker-compose.yml을 시각적으로 확인하는 용도로 활용 가능",
+      "en": "ReactFlow's custom node/edge system was powerful. Usable for visually inspecting docker-compose.yml in air-gapped work environments"
+    }
+  }
+]
