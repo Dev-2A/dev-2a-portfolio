@@ -699,5 +699,101 @@
       "ko": "ReactFlow의 커스텀 노드/엣지 시스템이 강력했음. 실무 에어갭 환경에서 docker-compose.yml을 시각적으로 확인하는 용도로 활용 가능",
       "en": "ReactFlow's custom node/edge system was powerful. Usable for visually inspecting docker-compose.yml in air-gapped work environments"
     }
+  },
+  {
+    "slug": "terminal-portfolio",
+    "title": { "ko": "터미널 포트폴리오", "en": "Terminal Portfolio" },
+    "subtitle": { "ko": "CLI 스타일 인터랙티브 포트폴리오", "en": "CLI-style interactive portfolio" },
+    "description": {
+      "ko": "브라우저에서 터미널처럼 help, ls projects, cat about.md 등의 명령어로 탐색하는 인터랙티브 개발자 포트폴리오.",
+      "en": "An interactive developer portfolio navigated through terminal commands like help, ls projects, and cat about.md in the browser."
+    },
+    "category": "web",
+    "techStack": ["React", "Vite", "Tailwind CSS"],
+    "thumbnailColor": "#22C55E",
+    "githubUrl": "https://github.com/Dev-2A/terminal-portfolio",
+    "liveUrl": "https://dev-2a.github.io",
+    "featured": true,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["커스텀 터미널 파서", "가상 파일시스템", "8가지 테마", "ASCII 아트 배너"],
+      "en": ["Custom terminal parser", "Virtual filesystem", "8 themes", "ASCII art banner"]
+    },
+    "lessonsLearned": {
+      "ko": "커스텀 CLI 파서 설계와 가상 파일시스템 구현을 경험",
+      "en": "Gained experience designing a custom CLI parser and implementing a virtual filesystem"
+    }
+  },
+  {
+    "slug": "og-image-generator",
+    "title": { "ko": "OG 이미지 생성기", "en": "OG Image Generator" },
+    "subtitle": { "ko": "SNS 공유용 OG 카드 이미지 생성기", "en": "OG card image generator for SNS sharing" },
+    "description": {
+      "ko": "제목, 설명, 테마를 입력하면 SNS 공유에 최적화된 OG 카드 이미지를 생성하는 도구. 터미널 포트폴리오의 8가지 테마를 재활용.",
+      "en": "A tool that generates OG card images optimized for SNS sharing from title, description, and theme inputs. Reuses 8 themes from Terminal Portfolio."
+    },
+    "category": "web",
+    "techStack": ["React", "Vite", "Satori", "Tailwind CSS"],
+    "thumbnailColor": "#F97316",
+    "githubUrl": "https://github.com/Dev-2A/og-image-generator",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": ["Satori로 서버리스 이미지 생성", "8가지 테마 재활용", "실시간 미리보기"],
+      "en": ["Serverless image generation with Satori", "8 theme reuse", "Real-time preview"]
+    },
+    "lessonsLearned": {
+      "ko": "Satori를 활용한 프로그래매틱 이미지 생성을 배움",
+      "en": "Learned programmatic image generation using Satori"
+    }
+  },
+  {
+    "slug": "github-repo-card-generator",
+    "title": { "ko": "GitHub 레포 카드 생성기", "en": "GitHub Repo Card Generator" },
+    "subtitle": { "ko": "GitHub 레포 소개 카드 이미지 생성기", "en": "GitHub repo introduction card image generator" },
+    "description": {
+      "ko": "GitHub 레포 URL을 입력하면 스타, 포크, 언어, 설명을 포함한 카드 이미지(SVG/PNG)를 생성하는 도구.",
+      "en": "A tool that generates card images (SVG/PNG) with stars, forks, language, and description from a GitHub repo URL."
+    },
+    "category": "web",
+    "techStack": ["React", "Vite", "Tailwind CSS"],
+    "thumbnailColor": "#8B5CF6",
+    "githubUrl": "https://github.com/Dev-2A/github-repo-card-generator",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": ["GitHub API 연동", "SVG/PNG 내보내기", "다양한 카드 테마"],
+      "en": ["GitHub API integration", "SVG/PNG export", "Multiple card themes"]
+    },
+    "lessonsLearned": {
+      "ko": "GitHub API와 동적 SVG 생성을 결합하는 방법을 배움",
+      "en": "Learned to combine GitHub API with dynamic SVG generation"
+    }
+  },
+  {
+    "slug": "ffxiv-loot-tracker",
+    "title": { "ko": "FFXIV 전리품 분배 도우미", "en": "FFXIV Loot Tracker" },
+    "subtitle": { "ko": "레이드 전리품 실시간 입찰/분배 도구", "en": "Real-time raid loot bidding & distribution tool" },
+    "description": {
+      "ko": "레이드 파티원이 접속해 전리품 입찰/패스를 실시간으로 진행하고, DKP·로또·우선권 등 분배 규칙을 자동 적용하는 웹 도구. URL 공유만으로 참여 가능.",
+      "en": "A web tool where raid party members bid/pass on loot in real-time with automatic distribution rules (DKP, lottery, priority). Join by sharing a URL."
+    },
+    "category": "web",
+    "techStack": ["React", "Vite", "Tailwind CSS", "Supabase"],
+    "thumbnailColor": "#E94560",
+    "githubUrl": "https://github.com/Dev-2A/ffxiv-loot-tracker",
+    "liveUrl": "https://ffxiv-loot-tracker.vercel.app",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": ["Supabase Realtime 실시간 동기화", "DKP/로또/우선권 분배 엔진", "URL 공유로 간편 참여", "gravity-raid-hub와 이어지는 FFXIV 도구 생태계"],
+      "en": ["Supabase Realtime sync", "DKP/Lottery/Priority distribution engine", "Join via URL sharing", "FFXIV tool ecosystem with gravity-raid-hub"]
+    },
+    "lessonsLearned": {
+      "ko": "Supabase Realtime을 활용한 멀티유저 실시간 동기화와 분배 규칙 엔진 설계를 경험",
+      "en": "Gained experience with Supabase Realtime multi-user sync and distribution rule engine design"
+    }
   }
 ]
