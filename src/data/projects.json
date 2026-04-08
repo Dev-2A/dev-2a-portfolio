@@ -795,5 +795,123 @@
       "ko": "Supabase Realtime을 활용한 멀티유저 실시간 동기화와 분배 규칙 엔진 설계를 경험",
       "en": "Gained experience with Supabase Realtime multi-user sync and distribution rule engine design"
     }
+  },
+  {
+    "slug": "devclip",
+    "title": { "ko": "DevClip", "en": "DevClip" },
+    "subtitle": { "ko": "개발자용 코드 스니펫 Chrome 익스텐션", "en": "Code snippet Chrome extension for developers" },
+    "description": {
+      "ko": "웹 페이지의 코드 블록을 원클릭 복사하고 스니펫으로 로컬 저장·태그·검색하는 개발자용 Chrome 익스텐션. Manifest V3 기반, 20개 이상 언어 자동 감지, JSON/Markdown 내보내기 지원.",
+      "en": "A Chrome extension for developers to one-click copy code blocks from web pages and save them locally as snippets with tagging and search. Built on Manifest V3 with 20+ language auto-detection and JSON/Markdown export."
+    },
+    "category": "tool",
+    "techStack": ["Vanilla JS", "Tailwind CSS", "Chrome Extension (Manifest V3)", "Chrome Storage API"],
+    "thumbnailColor": "#4285F4",
+    "githubUrl": "https://github.com/Dev-2A/devclip",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": ["웹 페이지 코드 블록 원클릭 복사 + 저장", "20개 이상 언어 자동 감지", "태그 기반 분류 + 통합 검색", "JSON/Markdown 내보내기 & 가져오기", "포트폴리오 최초 브라우저 익스텐션"],
+      "en": ["One-click copy & save code blocks from web pages", "20+ language auto-detection", "Tag-based categorization + unified search", "JSON/Markdown export & import", "First browser extension in portfolio"]
+    },
+    "lessonsLearned": {
+      "ko": "Manifest V3의 Service Worker 구조, Content Script 주입, Chrome Storage API 등 브라우저 익스텐션 아키텍처와 SPA 대응을 위한 MutationObserver 활용을 경험",
+      "en": "Gained experience with Manifest V3 Service Worker architecture, Content Script injection, Chrome Storage API, and MutationObserver for SPA compatibility"
+    }
+  },
+  {
+    "slug": "pybootstrap",
+    "title": { "ko": "PyBootstrap", "en": "PyBootstrap" },
+    "subtitle": { "ko": "Python 프로젝트 스캐폴딩 CLI 도구", "en": "Python project scaffolding CLI tool" },
+    "description": {
+      "ko": "한 줄 명령어로 Python 프로젝트 스캐폴딩을 자동화하는 CLI 도구. FastAPI/CLI/Fullstack 내장 템플릿 3종 + 커스텀 템플릿 지원, Jinja2 렌더링 엔진, Rich 트리 출력. git-commit-gen → kr-code-reviewer → pybootstrap Python CLI 시리즈 3부작 완성.",
+      "en": "A CLI tool that automates Python project scaffolding with a single command. Includes 3 built-in templates (FastAPI/CLI/Fullstack), custom template support, Jinja2 rendering engine, and Rich tree output. Completes the Python CLI trilogy."
+    },
+    "category": "cli",
+    "techStack": ["Python", "Click", "Rich", "pytest"],
+    "thumbnailColor": "#3776AB",
+    "githubUrl": "https://github.com/Dev-2A/pybootstrap",
+    "featured": false,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": ["FastAPI/CLI/Fullstack 내장 템플릿 3종", "커스텀 템플릿 지원 (Jinja2 렌더링)", "Rich 트리 출력으로 생성 결과 시각화", "Python CLI 시리즈 3부작 완성"],
+      "en": ["3 built-in templates: FastAPI, CLI, Fullstack", "Custom template support with Jinja2 rendering", "Rich tree output for scaffolding visualization", "Completes the Python CLI trilogy"]
+    },
+    "lessonsLearned": {
+      "ko": "Click 기반 CLI 설계, Jinja2 템플릿 엔진 활용, pytest를 통한 CLI 테스트 자동화를 경험하며 Python CLI 시리즈를 완성",
+      "en": "Completed the Python CLI series with experience in Click-based CLI design, Jinja2 template engine, and pytest CLI test automation"
+    }
+  },
+  {
+    "slug": "json-explorer",
+    "title": { "ko": "JSON Explorer", "en": "JSON Explorer" },
+    "subtitle": { "ko": "인터랙티브 JSON 트리 시각화 도구", "en": "Interactive JSON tree visualization tool" },
+    "description": {
+      "ko": "JSON 데이터를 트리 구조로 시각화하고, 노드별 접기/펼치기, 실시간 검색(하이라이팅), JSONPath 경로 원클릭 복사, 구문 에러 표시 등을 지원하는 인터랙티브 브라우저 도구. 텍스트 붙여넣기 + 파일 드래그앤드롭 + URL fetch 입력 지원.",
+      "en": "An interactive browser tool that visualizes JSON data as a tree with node collapse/expand, real-time search with highlighting, one-click JSONPath copy, and syntax error display. Supports paste, drag-and-drop, and URL fetch input."
+    },
+    "category": "tool",
+    "techStack": ["React", "Vite", "Tailwind CSS", "GitHub Actions"],
+    "thumbnailColor": "#F59E0B",
+    "githubUrl": "https://github.com/Dev-2A/json-explorer",
+    "liveUrl": "https://dev-2a.github.io/json-explorer/",
+    "featured": false,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": ["트리 구조 시각화 + 노드별 접기/펼치기", "실시간 검색 하이라이팅", "JSONPath 경로 원클릭 복사", "텍스트 붙여넣기 + 파일 드래그앤드롭 + URL fetch"],
+      "en": ["Tree structure visualization with node collapse/expand", "Real-time search highlighting", "One-click JSONPath copy", "Paste, drag-and-drop, and URL fetch input"]
+    },
+    "lessonsLearned": {
+      "ko": "재귀 트리 렌더링, 대용량 JSON 가상화 처리, 다양한 입력 방식(텍스트/파일/URL) 통합 설계를 경험",
+      "en": "Gained experience with recursive tree rendering, large JSON virtualization, and unified input design across text/file/URL"
+    }
+  },
+  {
+    "slug": "regex-playground",
+    "title": { "ko": "Regex Playground", "en": "Regex Playground" },
+    "subtitle": { "ko": "정규식 구조 다이어그램 시각화 & 실시간 매칭 테스터", "en": "Regex structure diagram visualization & real-time matching tester" },
+    "description": {
+      "ko": "정규식을 입력하면 Railroad Diagram으로 구조를 시각화하고, 테스트 문자열에서 매칭 결과를 실시간 하이라이팅으로 보여주는 브라우저 기반 개발자 도구. 자체 정규식 AST 파서 + SVG Railroad Diagram 엔진 직접 구현.",
+      "en": "A browser-based developer tool that visualizes regex as Railroad Diagrams and shows real-time matching highlights on test strings. Features a custom regex AST parser and SVG Railroad Diagram engine built from scratch."
+    },
+    "category": "tool",
+    "techStack": ["React", "Vite", "Tailwind CSS"],
+    "thumbnailColor": "#8B5CF6",
+    "githubUrl": "https://github.com/Dev-2A/regex-playground",
+    "liveUrl": "https://dev-2a.github.io/regex-playground/",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": ["Railroad Diagram 시각화 (호버 하이라이트, 줌/팬)", "자체 정규식 → AST 파서 직접 구현", "실시간 매칭 하이라이팅 + Replace diff 미리보기", "프리셋 예제 10종 + 치트시트 7개 카테고리", "\"개발자 시각화 도구\" 시리즈 #1"],
+      "en": ["Railroad Diagram visualization with hover highlight, zoom/pan", "Custom regex → AST parser built from scratch", "Real-time match highlighting + Replace diff preview", "10 preset examples + 7-category cheat sheet", "Developer visualization tool series #1"]
+    },
+    "lessonsLearned": {
+      "ko": "자체 정규식 파서(AST)를 처음부터 직접 구현하고, AST → SVG Railroad Diagram 렌더링 파이프라인을 설계한 경험. 줌/팬 인터랙션 커스텀 훅 분리 패턴 학습.",
+      "en": "Built a custom regex parser (AST) from scratch and designed an AST → SVG Railroad Diagram rendering pipeline. Learned zoom/pan interaction custom hook patterns."
+    }
+  },
+  {
+    "slug": "cron-expression-builder",
+    "title": { "ko": "Cron Expression Builder", "en": "Cron Expression Builder" },
+    "subtitle": { "ko": "크론 표현식 GUI 빌더 + 자연어 설명 도구", "en": "Cron expression GUI builder + natural language description tool" },
+    "description": {
+      "ko": "크론 표현식을 GUI로 조합하고, 한국어 자연어 설명과 다음 N회 실행 시간 미리보기를 제공하는 시각화 도구. 표현식 직접 입력 ↔ GUI 양방향 동기화, 프리셋 예제 20종, 치트시트 내장.",
+      "en": "A visualization tool for building cron expressions via GUI with Korean natural language descriptions and next N execution time preview. Features bidirectional sync between direct input and GUI, 20 presets, and a built-in cheat sheet."
+    },
+    "category": "tool",
+    "techStack": ["React", "Vite", "Tailwind CSS", "cronstrue", "cron-parser"],
+    "thumbnailColor": "#3B82F6",
+    "githubUrl": "https://github.com/Dev-2A/cron-expression-builder",
+    "liveUrl": "https://dev-2a.github.io/cron-expression-builder/",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": ["5개 필드 GUI 빌더 (매번·특정 값·범위·간격)", "표현식 ↔ GUI 양방향 동기화 + 커서 기반 필드 하이라이트", "한국어 자연어 설명 (전체 요약 + 필드별 분해)", "다음 5/10/20회 실행 시간 미리보기", "URL 쿼리 파라미터 공유 + 다크/라이트 모드", "\"개발자 시각화 도구\" 시리즈 #2"],
+      "en": ["5-field GUI builder (every, specific, range, step)", "Bidirectional expression ↔ GUI sync with cursor-based field highlight", "Korean natural language description (summary + per-field breakdown)", "Next 5/10/20 execution time preview", "URL query parameter sharing + dark/light mode", "Developer visualization tool series #2"]
+    },
+    "lessonsLearned": {
+      "ko": "cronstrue/cron-parser 라이브러리 활용, CSS Variables 기반 테마 시스템 설계, URL 쿼리 파라미터 양방향 동기화 패턴을 경험. Regex Playground에 이어 \"개발자 시각화 도구\" 시리즈 확장.",
+      "en": "Gained experience with cronstrue/cron-parser libraries, CSS Variables-based theme system design, and URL query parameter bidirectional sync patterns. Extended the developer visualization tool series after Regex Playground."
+    }
   }
 ]
