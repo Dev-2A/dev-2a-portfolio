@@ -701,6 +701,55 @@
     }
   },
   {
+    "slug": "bookshelf-log",
+    "title": {
+      "ko": "BookShelf.log",
+      "en": "BookShelf.log"
+    },
+    "subtitle": {
+      "ko": "임베딩 기반 독서 지식 그래프",
+      "en": "Embedding-based reading knowledge graph"
+    },
+    "description": {
+      "ko": "읽은 책의 감상문을 BGE-M3 임베딩으로 벡터화하고, 코사인 유사도 기반으로 유사한 감상끼리 연결하는 인터랙티브 독서 지식 그래프. 알라딘 API로 표지/메타데이터 자동 수집, D3.js force graph로 시각화.",
+      "en": "An interactive reading knowledge graph that vectorizes book reviews with BGE-M3 embeddings and connects similar reviews via cosine similarity. Auto-collects cover/metadata from Aladin API, visualized with D3.js force graph."
+    },
+    "category": "ai-ml",
+    "techStack": [
+      "Python",
+      "FastAPI",
+      "SQLite",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "D3.js",
+      "pytest"
+    ],
+    "thumbnailColor": "#8B5CF6",
+    "githubUrl": "https://github.com/Dev-2A/bookshelf-log",
+    "liveUrl": null,
+    "featured": false,
+    "createdAt": "2026-03",
+    "highlights": {
+      "ko": [
+        "BGE-M3 임베딩 + 코사인 유사도 그래프",
+        "알라딘 API 표지/메타데이터 자동 수집",
+        "D3.js force graph 인터랙티브 시각화",
+        "사서 × AI 크로스오버 프로젝트"
+      ],
+      "en": [
+        "BGE-M3 embedding + cosine similarity graph",
+        "Aladin API cover/metadata auto-collection",
+        "D3.js force graph interactive visualization",
+        "Librarian × AI crossover project"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "사서 경력과 임베딩 모델 경험을 결합한 크로스오버 프로젝트. D3.js force simulation으로 지식 그래프를 시각화하는 방법을 배움",
+      "en": "A crossover project combining librarian career with embedding model experience. Learned knowledge graph visualization with D3.js force simulation"
+    }
+  },
+  {
     "slug": "terminal-portfolio",
     "title": { "ko": "터미널 포트폴리오", "en": "Terminal Portfolio" },
     "subtitle": { "ko": "CLI 스타일 인터랙티브 포트폴리오", "en": "CLI-style interactive portfolio" },
@@ -912,6 +961,243 @@
     "lessonsLearned": {
       "ko": "cronstrue/cron-parser 라이브러리 활용, CSS Variables 기반 테마 시스템 설계, URL 쿼리 파라미터 양방향 동기화 패턴을 경험. Regex Playground에 이어 \"개발자 시각화 도구\" 시리즈 확장.",
       "en": "Gained experience with cronstrue/cron-parser libraries, CSS Variables-based theme system design, and URL query parameter bidirectional sync patterns. Extended the developer visualization tool series after Regex Playground."
+    }
+  },
+  {
+    "slug": "ffxiv-macro-builder",
+    "title": {
+      "ko": "FFXIV 제작 매크로 빌더",
+      "en": "FFXIV Macro Builder"
+    },
+    "subtitle": {
+      "ko": "드래그&드롭 FFXIV 제작 매크로 조립 도구",
+      "en": "Drag & drop FFXIV crafting macro builder"
+    },
+    "description": {
+      "ko": "FFXIV Dawntrail 7.x 제작 스킬 목록에서 드래그&드롭으로 매크로를 조립하고, /ac 형식으로 자동 생성하는 한국어 웹 도구. 15줄 초과 시 자동 매크로 분할, CP 소모량 실시간 계산, 프리셋 저장/불러오기 지원.",
+      "en": "A Korean web tool for assembling FFXIV Dawntrail 7.x crafting macros via drag & drop, auto-generating /ac format. Features auto-split for 15+ lines, real-time CP calculation, and preset save/load."
+    },
+    "category": "game",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "dnd-kit"
+    ],
+    "thumbnailColor": "#E94560",
+    "githubUrl": "https://github.com/Dev-2A/ffxiv-macro-builder",
+    "liveUrl": "https://dev-2a.github.io/ffxiv-macro-builder/",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": [
+        "30+ 제작 스킬 수록 (한/영 이름, CP, 레벨, 카테고리별 필터)",
+        "드래그&드롭 매크로 빌더 (@dnd-kit)",
+        "/ac 매크로 자동 생성 + 15줄 자동 분할",
+        "CP 예산 게이지 + 프리셋 저장/불러오기",
+        "FFXIV 도구 생태계 3부작 완성"
+      ],
+      "en": [
+        "30+ crafting skills (KR/EN names, CP, level, category filter)",
+        "Drag & drop macro builder (@dnd-kit)",
+        "Auto /ac macro generation + 15-line auto-split",
+        "CP budget gauge + preset save/load",
+        "Completes FFXIV tool ecosystem trilogy"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "dnd-kit이 가볍고 React에 잘 맞아서 드래그&드롭 구현이 수월했음. FFXIV 한국어 UI 기반 제작 도구가 거의 없어서 차별화 포인트가 명확했음",
+      "en": "dnd-kit was lightweight and well-suited for React drag-and-drop. Clear differentiation as there are few Korean FFXIV crafting tools"
+    }
+  },
+  {
+    "slug": "dev-calculator",
+    "title": {
+      "ko": "Dev Calculator",
+      "en": "Dev Calculator"
+    },
+    "subtitle": {
+      "ko": "개발자 전용 만능 계산기",
+      "en": "All-in-one calculator for developers"
+    },
+    "description": {
+      "ko": "진수 변환, Unix 타임스탬프, 바이트 단위, 색상 코드, JWT 디코더, URL/Base64 인코더, Hash 생성기, JSON Formatter 등 개발자가 자주 쓰는 변환 도구를 한 곳에 모은 만능 계산기.",
+      "en": "An all-in-one calculator consolidating developer tools: radix conversion, Unix timestamp, byte units, color codes, JWT decoder, URL/Base64 encoder, hash generator, and JSON formatter."
+    },
+    "category": "tool",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "thumbnailColor": "#3B82F6",
+    "githubUrl": "https://github.com/Dev-2A/dev-calculator",
+    "liveUrl": "https://dev-2a.github.io/dev-calculator/",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": [
+        "9개 변환 도구 (진수, 타임스탬프, 바이트, 색상, JWT, URL, Base64, Hash, JSON)",
+        "외부 라이브러리 없이 순수 JS로 모든 변환 로직 구현",
+        "다크/라이트 테마 + 원클릭 복사",
+        "\"개발자 시각화 도구\" 시리즈 #3"
+      ],
+      "en": [
+        "9 conversion tools (radix, timestamp, bytes, color, JWT, URL, Base64, hash, JSON)",
+        "All conversion logic in pure JS without external libraries",
+        "Dark/light theme + one-click copy",
+        "Developer visualization tool series #3"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "외부 라이브러리 없이 MD5를 직접 구현한 게 좋은 공부가 됐음. 9개 도구를 탭으로 구성하면서 공용 컴포넌트 추출의 중요성을 체감",
+      "en": "Implementing MD5 from scratch without libraries was a great learning experience. Felt the importance of shared component extraction while organizing 9 tools as tabs"
+    }
+  },
+  {
+    "slug": "markdown-slide-presenter",
+    "title": {
+      "ko": "Markdown Slide Presenter",
+      "en": "Markdown Slide Presenter"
+    },
+    "subtitle": {
+      "ko": "마크다운 → 슬라이드 변환 프레젠테이션 도구",
+      "en": "Markdown to slide conversion presentation tool"
+    },
+    "description": {
+      "ko": "마크다운 텍스트를 --- 구분자로 나누면 슬라이드 덱으로 변환하는 브라우저 기반 프레젠테이션 도구. 전체화면 프레젠테이션 모드, 발표자 모드(타이머+노트), 5종 슬라이드 테마, URL 공유 지원.",
+      "en": "A browser-based presentation tool that converts Markdown text into slide decks using --- separators. Features fullscreen presentation mode, presenter mode (timer + notes), 5 slide themes, and URL sharing."
+    },
+    "category": "tool",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "react-markdown",
+      "rehype-highlight"
+    ],
+    "thumbnailColor": "#22C55E",
+    "githubUrl": "https://github.com/Dev-2A/markdown-slide-presenter",
+    "liveUrl": "https://dev-2a.github.io/markdown-slide-presenter/",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": [
+        "실시간 마크다운 → 슬라이드 미리보기",
+        "전체화면 프레젠테이션 + 발표자 모드 (타이머/노트/다음 슬라이드)",
+        "코드 블록 구문 하이라이팅 (highlight.js)",
+        "5종 슬라이드 테마 + URL 쿼리 파라미터 공유",
+        "\"개발자 도구 시각화\" 시리즈"
+      ],
+      "en": [
+        "Real-time Markdown → slide preview",
+        "Fullscreen presentation + presenter mode (timer/notes/next slide)",
+        "Code block syntax highlighting (highlight.js)",
+        "5 slide themes + URL query parameter sharing",
+        "Developer visualization tool series"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "react-markdown 커스텀 컴포넌트 패턴 심화 학습. Fullscreen API + 키보드/터치/클릭 멀티 입력 네비게이션 설계 경험",
+      "en": "Deepened react-markdown custom component patterns. Gained experience designing Fullscreen API + multi-input navigation (keyboard/touch/click)"
+    }
+  },
+  {
+    "slug": "commit-sounds",
+    "title": {
+      "ko": "Commit Sounds",
+      "en": "Commit Sounds"
+    },
+    "subtitle": {
+      "ko": "GitHub 커밋 히스토리 데이터 소니피케이션",
+      "en": "GitHub commit history data sonification"
+    },
+    "description": {
+      "ko": "GitHub 레포의 커밋 히스토리를 음악으로 변환하는 Data Sonification 도구. 커밋 시간→리듬, 변경 파일 수→음높이, 커밋 메시지 감정→장조/단조 매핑. 실시간 파티클 애니메이션, 타임라인 시각화, 레포 비교 모드 지원.",
+      "en": "A data sonification tool that converts GitHub commit history into music. Maps commit time→rhythm, changed files→pitch, commit sentiment→major/minor key. Features real-time particle animation, timeline visualization, and repo comparison mode."
+    },
+    "category": "web",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Tone.js",
+      "GitHub API",
+      "Canvas API"
+    ],
+    "thumbnailColor": "#A855F7",
+    "githubUrl": "https://github.com/Dev-2A/commit-sounds",
+    "liveUrl": "https://dev-2a.github.io/commit-sounds/",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": [
+        "커밋 → 음악 변환 (시간→리듬, 파일 수→음높이, 감정→장조/단조)",
+        "실시간 파티클 애니메이션 (감정별 색상/모양)",
+        "레포 비교 모드 (듀얼 스테레오 채널)",
+        "타임라인 바 시각화 + 통계 대시보드",
+        "\"개발자 도구 시각화\" 시리즈"
+      ],
+      "en": [
+        "Commit → music conversion (time→rhythm, files→pitch, sentiment→key)",
+        "Real-time particle animation (color/shape by sentiment)",
+        "Repo comparison mode (dual stereo channels)",
+        "Timeline bar visualization + stats dashboard",
+        "Developer visualization tool series"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "Tone.js를 처음 사용하며 AudioContext 초기화 타이밍, 브라우저 오디오 정책 등 웹 오디오 특유의 이슈를 경험. 개발 활동 자체를 색다르게 바라보는 관점을 만들어준 프로젝트",
+      "en": "First time using Tone.js — experienced web audio quirks like AudioContext initialization timing and browser audio policies. A project that offered a fresh perspective on development activity"
+    }
+  },
+  {
+    "slug": "typing-dojo",
+    "title": {
+      "ko": "Typing Dojo",
+      "en": "Typing Dojo"
+    },
+    "subtitle": {
+      "ko": "개발자 코드 타이핑 수련장",
+      "en": "Code typing practice dojo for developers"
+    },
+    "description": {
+      "ko": "실제 코드 스니펫(Python, JS, TS, Java, Go, Rust, SQL, CSS)으로 타이핑을 연습하고, WPM/정확도를 실시간 측정하는 도구. Monaco Editor 기반 코드 뷰어, 키보드 히트맵, 매일 도전 모드, 결과 리포트, 성장 그래프 지원.",
+      "en": "A typing practice tool using real code snippets (Python, JS, TS, Java, Go, Rust, SQL, CSS) with real-time WPM/accuracy measurement. Features Monaco Editor code viewer, keyboard heatmap, daily challenge mode, result reports, and growth graphs."
+    },
+    "category": "tool",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Monaco Editor"
+    ],
+    "thumbnailColor": "#10B981",
+    "githubUrl": "https://github.com/Dev-2A/typing-dojo",
+    "liveUrl": "https://dev-2a.github.io/typing-dojo/",
+    "featured": true,
+    "createdAt": "2026-04",
+    "highlights": {
+      "ko": [
+        "8개 언어 26개 코드 스니펫 (난이도별)",
+        "Monaco Editor 코드 하이라이팅 + 실시간 diff 시각화",
+        "US QWERTY 키보드 히트맵 (코드 특수문자 오타 분석)",
+        "매일 도전 모드 (날짜 시드 기반 3라운드 + 연속 일수)",
+        "성장 그래프 + 언어별 통계 + S~F 등급 리포트",
+        "\"개발자 도구 시각화\" 시리즈"
+      ],
+      "en": [
+        "26 code snippets across 8 languages (by difficulty)",
+        "Monaco Editor code highlighting + real-time diff visualization",
+        "US QWERTY keyboard heatmap (code special character error analysis)",
+        "Daily challenge mode (date-seeded 3 rounds + streak)",
+        "Growth graph + language stats + S~F grade report",
+        "Developer visualization tool series"
+      ]
+    },
+    "lessonsLearned": {
+      "ko": "코드 타이핑은 일반 타이핑과 확실히 달라서 키보드 히트맵으로 약점이 한눈에 보였다. Monaco Editor 통합이 간단했고, 매일 도전 모드의 날짜 시드 + LCG 난수 생성기 조합은 재활용할 수 있을 것 같다",
+      "en": "Code typing is distinctly different from regular typing — the keyboard heatmap clearly revealed weak spots. Monaco Editor integration was straightforward, and the date seed + LCG random generator combo for daily challenges seems reusable"
     }
   }
 ]
